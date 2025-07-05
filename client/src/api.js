@@ -1,4 +1,4 @@
-const API = 'http://localhost:3001/api';
+const API = 'https://backend-production-cb33.up.railway.app/api';
 
 export async function getCommunities() {
   const res = await fetch(`${API}/communities`);
